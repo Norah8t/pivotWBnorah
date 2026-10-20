@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+*.tar.gz
+*.Rcheck/
+# raw course file: only needed to rebuild data/maternal_mortality.rda
+data-raw/*.csv
+.httr-oauth
+.quarto

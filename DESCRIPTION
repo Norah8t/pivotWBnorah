@@ -1,0 +1,28 @@
+Package: pivotWBnorah
+Type: Package
+Title: Reshape World Bank Indicator Data from Wide to Long Format
+Version: 0.1.0
+Authors@R: 
+    person("Norah", "Alotaibi", email = "n.alotaibi@mail.utoronto.ca",
+           role = c("aut", "cre"))
+Description: World Bank indicator files store one column per year (for
+    example X2000, X2001, ...). This package converts such a file into a
+    long country-year data set with one row per country and year, ready to
+    be merged with other country-year data. It was written for the CHL5233
+    armed conflict project, where the maternal, infant, neonatal and
+    under-5 mortality files are each reshaped and then joined.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    dplyr,
+    tidyr,
+    tidyselect,
+    utils
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1
