@@ -9,3 +9,6 @@
 data-raw/*.csv
 .httr-oauth
 .quarto
+
+/.quarto/
+**/*.quarto_ipynb

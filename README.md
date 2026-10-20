@@ -12,7 +12,7 @@ infant, neonatal and under-5 mortality files are each reshaped and joined.
 
 ```r
 # install.packages("devtools")
-devtools::install_github("<your-github-username>/pivotWBnorah")
+devtools::install_github("Norah8t/pivotWBnorah")
 ```
 
 ## Usage
